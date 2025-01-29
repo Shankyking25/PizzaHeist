@@ -273,15 +273,15 @@ function Header() {
 
 
 <Chip 
-      icon={<LocalMallIcon  sx={{ color: '#534D4D',fontSize:"1.6rem", padding: '6px',fontWeight: 'bold',backgroundColor: 'transparent', }} />}
-  label="Cart"  />
+      icon={<LocalMallIcon  sx={{ color: '#534D4D',fontSize:"1.6rem"}} />}
+  label="Cart" 
+     style={{padding: '6px',fontWeight: 'bold',backgroundColor: 'transparent',}}/>
     
     
       <Chip 
-      icon={<PersonOutlineIcon  sx={{ color: '#534D4D',fontSize: '2rem', padding: '6px',
-  fontWeight: 'bold',
-  backgroundColor: 'transparent'}} />}
+      icon={<PersonOutlineIcon  sx={{ color: '#534D4D',fontSize: '2rem',}} />}
   label="Account" 
+    style={{padding: '6px',fontWeight: 'bold',backgroundColor: 'transparent',}}
   onClick={handleClickOpen}
        />
     </Stack>
