@@ -1,0 +1,71 @@
+/* Container */
+.footer-container {
+    background-color: #1A181E;
+  }
+  
+  /* Icon Styles */
+  .footer-icon {
+    width: 65px;
+    height: auto;
+    max-height: 100%;
+    border-radius: 6px;
+  }
+  
+  /* Typography Styles */
+  .footer-title {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .footer-description {
+    color: white;
+    margin-top: 8px;
+    text-decoration: none;
+    margin-bottom: 3px;
+  }
+  
+  /* Divider */
+  .footer-divider {
+    border: 0;
+    height: 1px;
+    background-color: #313035;
+    margin: 8px 0;
+  }
+  
+  /* Store Details */
+  .store-details-text {
+    color: white;
+    font-weight: bold;
+    padding-top: 9px;
+  }
+  
+  /* Social Media Section */
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+  }
+  
+  .social-media-icon {
+    color: white;
+    margin-right: 8px;
+  }
+  
+  .social-media-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Responsive Typography */
+  @media screen and (max-width: 600px) {
+    .footer-title {
+      font-size: 14px;
+    }
+    .footer-description {
+      font-size: 12px;
+      text-decoration: none;
+    }
+  }
+  

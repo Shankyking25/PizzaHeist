@@ -1,0 +1,83 @@
+
+
+.headerGrid{
+   padding-top: 15px; 
+   padding-bottom:5px;
+}
+.headlogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.header-logo-image {
+  width: 53px;
+  height: auto;
+  max-height: 100%;
+  border-radius: 6px;
+}
+
+
+
+
+/* Custom styles for TextField */
+.custom-textfield {
+  background-color: #f0f0f0;
+  padding: 5px 0px;
+  border-radius: 5px;
+  border: none; /* Remove the border */
+}
+
+/* Styles for the input field inside TextField */
+.custom-textfield .MuiOutlinedInput-root {
+  border: none;
+}
+
+.custom-textfield .MuiOutlinedInput-root fieldset {
+  border: none; /* Remove the border around the input */
+}
+
+.custom-textfield .MuiInputBase-input {
+  padding: 5px; /* Adjust padding for thinner appearance */
+}
+
+
+
+
+.custom-box-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80%;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* Custom styles for the component */
+.custom-chip {
+  padding: 6px;
+  font-weight: bold;
+  background-color: transparent;
+  color: #534D4D;
+}
+
+
+
+/* Custom styles for the component */
+.CrossButton {
+  font-size: 1.5rem;
+  color: black;
+  position: absolute;
+  top: 3px;
+  right: 1px;
+}
+
+.agreeTerm {
+  padding: 15px 20px;
+  text-align: center;
+  white-space: normal;
+  line-height: 1.5;
+}
