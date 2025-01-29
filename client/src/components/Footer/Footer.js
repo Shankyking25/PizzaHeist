@@ -40,7 +40,7 @@ function Footer() {
               <Typography variant="body1" className="footer-title">
                 Customer Support
               </Typography>
-              <Link href="mailto:pizzaheist.com@gmail.com" style={{textDecoration: "none"}} className="footer-description">
+              <Link href="mailto:pizzaheist.com@gmail.com" style={{textDecoration: "none",color:"white"}} className="footer-description">
                 pizzaheist.com@gmail.com
               </Link>
             </Grid>
@@ -75,7 +75,7 @@ function Footer() {
                 <InstagramIcon className="social-media-icon" />
                 <Link
                   //href="https://www.instagram.com/"
-                  style={{textDecoration: "none"}} 
+                  style={{textDecoration: "none",color:"white",}} 
                   target="_blank"
                   className="social-media-link"
                 >
