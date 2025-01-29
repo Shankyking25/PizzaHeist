@@ -163,27 +163,7 @@ function Header() {
           <TextField
             placeholder="Search for products..."
             className="custom-textfield" 
-            /*
-            sx={{
-           
-              backgroundColor: '#f0f0f0',
-              padding:"5px 0px",
-              
-              borderRadius: "5px",
-              border: 'none', // Remove the border
-              '& .MuiOutlinedInput-root': {
-                border: 'none',
-                '& fieldset': {
-                  border: 'none', // Remove the border around the input
-                },
-              },
-              '& .MuiInputBase-input': {
-                padding: '5px', // Adjust padding for thinner appearance
-              },
-            }}
-            */
             fullWidth
-
             value={searchText}
         onClick={handleSearchClick} // Open popup on click
         onChange={(e) => setSearchText(e.target.value)} // Update search text
@@ -302,7 +282,15 @@ function Header() {
   <DialogTitle id="responsive-dialog-title">
     <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
       <Typography sx={{ fontWeight: 'bold' ,  fontSize:"1.1rem"}}>Sign in</Typography>
-      <Button variant="text" className="CrossButton" onClick={handleClose}>
+      <Button variant="text" 
+        style={{
+           fontSize: '1.5rem',
+           color: 'black',
+           position: 'absolute',
+           top: '3px',
+           right: '1px',
+          }}
+       onClick={handleClose}>
         X
       </Button>
     </Box>
