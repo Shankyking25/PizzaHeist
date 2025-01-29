@@ -263,23 +263,24 @@ function Header() {
   
 <Stack direction="row" spacing={1.5}>
 <Chip 
-      icon={<GridViewIcon sx={{ color: '#534D4D', fontSize:"1.7rem" }} />}
+      icon={<GridViewIcon 
+        sx={{ color: '#534D4D', fontSize:"1.7rem",padding: '6px',fontWeight: 'bold',backgroundColor: 'transparent',}} />}
   label="Categories"
-  className='custom-chip'
-  onClick={ClickNavigate}
+  //className='custom-chip'
+   onClick={ClickNavigate}
        />
 
 
 <Chip 
-      icon={<LocalMallIcon  sx={{ color: '#534D4D',fontSize:"1.6rem" }} />}
-  label="Cart" 
-  className='custom-chip'    />
+      icon={<LocalMallIcon  sx={{ color: '#534D4D',fontSize:"1.6rem", padding: '6px',fontWeight: 'bold',backgroundColor: 'transparent', }} />}
+  label="Cart"  />
     
     
       <Chip 
-      icon={<PersonOutlineIcon  sx={{ color: '#534D4D',fontSize: '2rem'}} />}
+      icon={<PersonOutlineIcon  sx={{ color: '#534D4D',fontSize: '2rem', padding: '6px',
+  fontWeight: 'bold',
+  backgroundColor: 'transparent'}} />}
   label="Account" 
-   className='custom-chip'
   onClick={handleClickOpen}
        />
     </Stack>
