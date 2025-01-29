@@ -264,8 +264,9 @@ function Header() {
 <Stack direction="row" spacing={1.5}>
 <Chip 
       icon={<GridViewIcon 
-        sx={{ color: '#534D4D', fontSize:"1.7rem",padding: '6px',fontWeight: 'bold',backgroundColor: 'transparent',}} />}
+        sx={{ color: '#534D4D', fontSize:"1.7rem",}} />}
   label="Categories"
+   style={{padding: '6px',fontWeight: 'bold',backgroundColor: 'transparent',}}
   //className='custom-chip'
    onClick={ClickNavigate}
        />
